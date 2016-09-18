@@ -44,7 +44,7 @@ public class JenkinsTestProjectTest {
     @Test
     public void testMain() throws Exception {
         int i = JenkinsTestProject.x;
-        assertEquals(i, 1);
+        assertEquals(i, 0);
     }
     
 }
