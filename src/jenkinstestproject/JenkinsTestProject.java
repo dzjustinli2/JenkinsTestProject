@@ -11,18 +11,15 @@ package jenkinstestproject;
  */
 public class JenkinsTestProject {
 
-    /**
-     * @param args the command line arguments
-     */
+    static int x = 0;
+
     public static void main(String[] args) throws Exception {
 
-        int x = 0; 
-        
-        if(x == 0){
+        if (x == 0) {
             System.out.println("All is good");
         } else {
             throw new Exception("Bad thing happened!!!!!!!!!!!!!");
         }
     }
-    
+
 }
